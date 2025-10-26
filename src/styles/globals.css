@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    background: #121214;
+    color: #a8a8b3;
+    font-family: "Roboto", sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+  }
+}
